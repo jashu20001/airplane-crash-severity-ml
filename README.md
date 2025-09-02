@@ -1,5 +1,4 @@
 
-````markdown
 # Airplane Crash Severity Prediction using Machine Learning
 
 ## Project Overview
@@ -110,7 +109,7 @@ Open **Airplane Crash Severity Prediction using Machine Learning.ipynb** and run
 * Dataset: [Kaggle – Airplane Crashes and Fatalities Since 1908](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908)
 * Libraries: Scikit-learn, Imbalanced-learn, XGBoost, LightGBM, Matplotlib, Seaborn, Folium, WordCloud, KaggleHub
 
-```
+
 
 
 
