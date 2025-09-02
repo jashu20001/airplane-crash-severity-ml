@@ -1,4 +1,3 @@
-
 # Airplane Crash Severity Prediction using Machine Learning
 
 ## Project Overview
@@ -34,6 +33,8 @@ By applying exploratory data analysis (EDA), preprocessing, class imbalance hand
 
 ## Results
 
+The following table summarizes model performance after applying SMOTE to handle class imbalance:
+
 | Model                | Accuracy | Macro F1 | ROC AUC |
 |-----------------------|----------|----------|---------|
 | Logistic Regression   | 0.957    | 0.441    | 0.671   |
@@ -54,58 +55,31 @@ By applying exploratory data analysis (EDA), preprocessing, class imbalance hand
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
-````
-
-### 2. Create Virtual Environment
-
-```bash
+git clone https://github.com/jashu20001/airplane-crash-severity-ml.git
+cd airplane-crash-severity-ml
+2. Create Virtual Environment
 python3 -m venv venv
 source venv/bin/activate   # On Windows: venv\Scripts\activate
-```
-
-### 3. Install Dependencies
-
-```bash
+3. Install Dependencies
 pip install -r requirements.txt
-```
-
-### 4. Run Jupyter Notebook
-
-```bash
+4. Run Jupyter Notebook
 jupyter notebook
-```
-
-Open **Airplane Crash Severity Prediction using Machine Learning.ipynb** and run all cells.
-
-## Project Structure
-
-```
+Open Airplane Crash Severity Prediction using Machine Learning.ipynb and run all cells.
+Project Structure
 ├── Airplane Crash Severity Prediction using Machine Learning.ipynb
 ├── requirements.txt
 ├── README.md
 └── data/
     └── Airplane_Crashes_and_Fatalities_Since_1908.csv
-```
-
-## Future Improvements
-
-* Add more aviation datasets for better generalization
-* Try deep learning (e.g., LSTMs on crash narratives)
-* Deploy a web dashboard for real-time predictions
-
-## Tools & Libraries
-
-* Python: Pandas, NumPy, Matplotlib, Seaborn
-* Machine Learning: Scikit-learn, Imbalanced-learn (SMOTE), XGBoost, LightGBM
-* Visualization: Folium, WordCloud
-
-## Acknowledgments
-
-* Dataset: [Kaggle – Airplane Crashes and Fatalities Since 1908](https://www.kaggle.com/datasets/saurograndi/airplane-crashes-since-1908)
-* Libraries: Scikit-learn, Imbalanced-learn, XGBoost, LightGBM, Matplotlib, Seaborn
-
-```
-
-
+Future Improvements
+Add more aviation datasets for better generalization
+Try deep learning (e.g., LSTMs on crash narratives)
+Deploy a web dashboard for real-time predictions
+Tools & Libraries
+Python: Pandas, NumPy, Matplotlib, Seaborn
+Machine Learning: Scikit-learn, Imbalanced-learn (SMOTE), XGBoost, LightGBM
+Visualization: Folium, WordCloud
+Data Access: KaggleHub
+Acknowledgments
+Dataset: Kaggle – Airplane Crashes and Fatalities Since 1908
+Libraries: Scikit-learn, Imbalanced-learn, XGBoost, LightGBM, Matplotlib, Seaborn, Folium, WordCloud, KaggleHub
