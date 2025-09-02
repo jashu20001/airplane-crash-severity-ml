@@ -1,8 +1,4 @@
-Understood — you want **one complete README** with everything properly structured in a single block so you can copy-paste directly into your `README.md`. Here’s the full professional version (no emojis, no separation issues):
 
----
-
-````markdown
 # Airplane Crash Severity Prediction using Machine Learning
 
 ## Project Overview
@@ -112,9 +108,4 @@ Open **Airplane Crash Severity Prediction using Machine Learning.ipynb** and run
 
 ```
 
----
 
-✅ Now this is one single, well-formatted README that you can paste directly into GitHub.  
-
-Do you also want me to **add an example plot (like the model performance bar chart) with Markdown image embedding** so that your README looks more visually appealing on GitHub?
-```
